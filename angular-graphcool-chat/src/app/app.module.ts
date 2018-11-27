@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule, MatListModule } from '@angular/material';
+import { AolloConfigModule } from './aollo-config/aollo-config.module';
 
 @NgModule({
   declarations: [
@@ -10,6 +11,7 @@ import { MatToolbarModule, MatListModule } from '@angular/material';
   ],
   imports: [
     BrowserAnimationsModule,
+    AolloConfigModule,
     MatToolbarModule,
     MatListModule
   ],
